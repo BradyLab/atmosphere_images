@@ -3,10 +3,10 @@ Use <a href="https://atmo.iplantcollaborative.org/" title="atmosphere"> atmosphe
 RNASeq_Analysis_gt_V2 (emi-F8C42B73)
 -----------------------------------------------
 
-**_Install_**
-
+**_To install:_**
 
 **start with image "Ubuntu 12.04 Xfce GUI v2"**
+
 
 **General**
 
