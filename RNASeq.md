@@ -1,5 +1,5 @@
-image_name: RNASeq_Analysis_gt_V2 (emi-F8C42B73)
-====================================
+use <a href="" title="atmosphere"> atmosphere</a> image :RNASeq_Analysis_gt_V2 (emi-F8C42B73)
+-----------------------------------------------
 
 start with image "Ubuntu 12.04 Xfce GUI v2"
 --------------------------------------------
@@ -14,7 +14,7 @@ start with image "Ubuntu 12.04 Xfce GUI v2"
 
 **R and edgeR**
 
-```r
+```shell
   sudo apt-get install r-base-dev
   sudo R
   source("http://bioconductor.org/biocLite.R")
@@ -100,7 +100,7 @@ start with image "Ubuntu 12.04 Xfce GUI v2"
   sudo cp * /usr/local/bin/
 ```
 
-**others**
+**optional**
 
 ```shell
 ##libgtextutils
