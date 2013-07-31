@@ -4,86 +4,105 @@ image_name: RNASeq_Analysis_gt_V2 (emi-F8C42B73)
 start with image "Ubuntu 12.04 Xfce GUI v2"
 --------------------------------------------
 
-# General:
+**General**
 
+```shell
   sudo apt-get update
   sudo apt-get upgrade
   sudo apt-get install git
+```
 
-# R and edgeR:
+**R and edgeR**
 
+```r
   sudo apt-get install r-base-dev
   sudo R
   source("http://bioconductor.org/biocLite.R")
   biocLite("edgeR")
+```
 
-# Python2.7 (pysam, ):
+**Python2.7 (pysam,HTSeq)**
 
+```shell
   sudo apt-get install python2.7 python2.7-dev python-setuptools
   sudo apt-get install python-pip
   sudo easy_install -U distribute
 
-# pysam:
-
+##pysam:
   sudo pip install pysam
 
-# HTSeq:
-
+##HTSeq:
   sudo apt-get install build-essential python2.7-dev python-numpy python-matplotlib
   sudo pip install HTSeq
+```
 
-# TrimREADS:
+**TrimREADS**
 
+```shell
   git clone https://github.com/tanghaibao/trimReads.git
   cd trimReads/
   tar zxvf seqan.tgz
   make
+```
 
-# fastq:
+**fastq**
 
+```shell
   wget http://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.3.2/sratoolkit.2.3.2-centos_linux64.tar.gz
   tar -xvzf sratoolkit.2.3.2-centos_linux64.tar.gz
   cd sratoolkit.2.3.2-centos_linux64/
   sudo cp bin/fastq-dump /usr/local/bin/
+```
 
-# fastqc:
+**fastqc**
 
+```shell
   wget http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.10.1.zip
   unzip fastqc_v0.10.1.zip
   cd FastQC
   chmod 755 fastqc
   sudo ln -s /path/to/FastQC/fastqc /usr/local/bin/fastqc
+```
 
-# bowtie:
+**bowtie**
 
+```shell
   git clone https://github.com/BenLangmead/bowtie.git
   cd bowtie
   make
   sudo mv bowtie /usr/local/bin/
   sudo mv bowtie-build /usr/local/bin/
+```
+**BWA**
 
-# BWA:
-
+```shell
   git clone https://github.com/lh3/bwa.git
   make
   sudo mv bwa /usr/local/bin/
+```
 
-# samtools:
+**samtools**
 
+```shell
   git clone git://github.com/samtools/samtools.git  
   make
   sudo cp samtools /usr/local/bin/
+```
 
-# bedtools:
+**bedtools**
 
+```shell
   wget https://bedtools.googlecode.com/files/BEDTools.v2.17.0.tar.gz
   tar -xvzf BEDTools.v2.17.0.tar.gz
   cd bedtools-2.17.0/
   make clean
   make all
   sudo cp * /usr/local/bin/
+```
 
+**others**
 
+```shell
 ##libgtextutils
 #wget http://cancan.cshl.edu/labmembers/gordon/files/libgtextutils-0.6.tar.bz2
 #tar -xjf libgtextutils-0.6.tar.bz2
@@ -103,4 +122,5 @@ start with image "Ubuntu 12.04 Xfce GUI v2"
 # Not sure how easy to read see what standford says?!
 ## TopHat
 #http://tophat.cbcb.umd.edu/tutorial.shtml#ref
+```
 
