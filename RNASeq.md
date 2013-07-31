@@ -1,8 +1,9 @@
-use <a href="" title="atmosphere"> atmosphere</a> image :RNASeq_Analysis_gt_V2 (emi-F8C42B73)
+use <a href="https://atmo.iplantcollaborative.org/" title="atmosphere"> atmosphere</a> image:
+---------------------------------------------------------------------------------------------
+RNASeq_Analysis_gt_V2 (emi-F8C42B73)
 -----------------------------------------------
 
-start with image "Ubuntu 12.04 Xfce GUI v2"
---------------------------------------------
+**start with image "Ubuntu 12.04 Xfce GUI v2"**
 
 **General**
 
