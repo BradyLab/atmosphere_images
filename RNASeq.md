@@ -5,7 +5,7 @@ RNASeq_Analysis_gt_V2 (emi-F8C42B73)
 
 **_To install:_**
 
-**start with image "Ubuntu 12.04 Xfce GUI v2"**
+start with image "Ubuntu 12.04 Xfce GUI v2"
 
 
 **General**
@@ -127,4 +127,4 @@ RNASeq_Analysis_gt_V2 (emi-F8C42B73)
 ## TopHat
 #http://tophat.cbcb.umd.edu/tutorial.shtml#ref
 ```
-
+Author: Gina Turco, Brady Lab UC Davis

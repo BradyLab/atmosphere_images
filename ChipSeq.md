@@ -5,7 +5,7 @@ ChipSeq (emi-0BEB20AD)
 
 **_To install:_**
 
-**start with image "Ubuntu 12.04 Xfce GUI v2" and load the packages found in the <a herf="https://github.com/BradyLab/atmosphere_images/blob/master/RNASeq.md" title="RNASeq"> RNASeq image</a>:
+start with image "Ubuntu 12.04 Xfce GUI v2" and load the packages found in the <a herf="https://github.com/BradyLab/atmosphere_images/blob/master/RNASeq.md" title="RNASeq"> RNASeq image</a>:
 
 **Scipy**
 
@@ -43,4 +43,4 @@ ChipSeq (emi-0BEB20AD)
   sudo mv bin/sam2bed /usr/local/bin/
   sudo mv bin/sort-bed /usr/local/bin/
 ```
-
+Author: Gina Turco, Brady Lab UC Davis
