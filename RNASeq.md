@@ -1,7 +1,10 @@
-use <a href="https://atmo.iplantcollaborative.org/" title="atmosphere"> atmosphere</a> image:
+Use <a href="https://atmo.iplantcollaborative.org/" title="atmosphere"> atmosphere</a> image:
 ---------------------------------------------------------------------------------------------
 RNASeq_Analysis_gt_V2 (emi-F8C42B73)
 -----------------------------------------------
+
+**_Install_**
+
 
 **start with image "Ubuntu 12.04 Xfce GUI v2"**
 
