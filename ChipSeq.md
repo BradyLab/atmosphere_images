@@ -3,7 +3,7 @@ Use <a href="https://atmo.iplantcollaborative.org/" title="atmosphere"> atmosphe
 ChipSeq (emi-0BEB20AD)
 -------------------------
 
-**_To install:_**
+**_To install manually:_**
 
 start with image "Ubuntu 12.04 Xfce GUI v2" and load the packages found in the <a herf="https://github.com/BradyLab/atmosphere_images/blob/master/RNASeq.md" title="RNASeq"> RNASeq image</a>:
 
